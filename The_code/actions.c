@@ -29,6 +29,7 @@ void create_batch(Sys *sys,char *buff) {
 		&batch.date.day, &batch.date.month, &batch.date.year,
 		&batch.doses_remain, batch.vac_name) != 6) {
 		free_batch(&batch);
+        puts(EINVCOM);
 		return;
 	}
 	// verify the inputs
@@ -84,11 +85,13 @@ void apply_vaccine(Sys *sys, char *buff) {
 	char username[BUFMAX], vacname[MAXVACNAME];
 	if (buff[2] == '\"') { // verify if the name is between " or not
 		if (sscanf(buff, "%*s \"%[^\"]\" %s", username, vacname) != 2) {
+            puts(EINVCOM);
 			return;
 		}
 	}
 	else {
 		if (sscanf(buff, "%*s %s %s", username, vacname) != 2) {
+            puts(EINVCOM);
 			return;
 		}
 	}
@@ -157,11 +160,13 @@ void delete_user(Sys *sys, char *buff) {
 	if (buff[2] == '\"') { // if username is between " or not
 		if ((n = sscanf(buff, "%*s \"%[\"]\" %hd-%hd-%hd %s", username, 
 		   &date.day, &date.month, &date.year, batch)) < 1)
+            puts(EINVCOM);
 			return;
 	}
 	else
 		if ((n = sscanf(buff, "%*s %s %hd-%hd-%hd %s", username, 
 		   &date.day, &date.month, &date.year, batch)) < 1)
+            puts(EINVCOM);
 			return;
 	// m == to what error to print
 	if (n != (m = verify_args_d(sys, username, batch, date, n))) {

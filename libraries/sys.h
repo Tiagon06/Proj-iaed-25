@@ -56,6 +56,8 @@
 // error for no memory
 #define ENOMEM		(sys->lang)?\
 	"no memory" : "sem memória"
+#define EINVCOM      (sys->lang)?\
+    "invalid command" : "comando inválido"
 
 /*---------------------the struct of the program-------------------------*/
 typedef struct{
