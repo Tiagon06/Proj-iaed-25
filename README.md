@@ -6,7 +6,6 @@ Read the [statement](https://github.com/Tiagon06/Proj-iaed-25/blob/main/enunciad
 
 ## 🛠 Runnig the code
 
-1. Clone the repository:
    ```bash
    git clone https://github.com/Tiagon06/Proj-iaed-25.git
    cd Proj-iaed-25
