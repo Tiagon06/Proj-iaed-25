@@ -4,7 +4,7 @@
  * @author: ist1113628 (Tiago Nogueira)
  */
 
-#include "./init.h"
+#include "./../libraries/init.h"
 
 /** print the errors based on the what was not found (m) **/
 // @param sys       system information

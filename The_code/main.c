@@ -5,7 +5,7 @@
  * @author: ist1113628 (Tiago Nogueira)
  */
 
-#include "./init.h"
+#include "./../libraries/init.h"
 
 /**vaccine manager
  * @param argc      the amount of args

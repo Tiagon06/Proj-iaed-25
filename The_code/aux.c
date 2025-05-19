@@ -4,7 +4,7 @@
  * @author: ist1113628 (Tiago Nogueira)
  */
 
-#include "init.h"
+#include "./../libraries/init.h"
 
 /** count the digits and if is bigger than the max_digs return -1 **/
 // @param arg       argument number to count

@@ -4,7 +4,7 @@
  * @author: ist1113628 (Tiago Nogueira)
  */
 
-#include "./init.h"
+#include "./../libraries/init.h"
 
 /** asks for a batch if the input is valid save it to the system **/
 // @param sys		system information

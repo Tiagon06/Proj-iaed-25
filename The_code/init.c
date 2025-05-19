@@ -4,7 +4,7 @@
  * @author: ist1113628 (Tiago Nogueira)
  */
 
-#include "./init.h"
+#include "./../libraries/init.h"
 
 /** inicialize the system to work properlly **/
 // @param sys       system information

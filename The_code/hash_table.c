@@ -4,7 +4,7 @@
  * @author: ist1113628 (Tiago Nogueira)
  */
 
-#include "./init.h"
+#include "./../libraries/init.h"
 
 /** get the index of the key on the table **/
 // @param key		what the hash depends

@@ -4,7 +4,7 @@
  * @author: ist1113628 (Tiago Nogueira)
  */
 
-#include "init.h"
+#include "./../libraries/init.h"
 
 /** free the allocated memory for an user **/
 // @param user		user to free

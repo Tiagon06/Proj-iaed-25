@@ -4,7 +4,7 @@
  * @author: ist1113628 (Tiago Nogueira)
  */
 
-#include "init.h"
+#include "./../libraries/init.h"
 
 /** compares 2 dates **/
 // @param date_a		date to compare
