@@ -1,5 +1,5 @@
 # Proj-iaed-25
-A project in C for the Introduction to Algorithms and Data Structures  
+A project in C for the Introduction to Algorithms and Data Structures class  
 Its a very simple data base for vaccines applications.  
 Read the [statement](https://github.com/Tiagon06/Proj-iaed-25/blob/main/enunciado.md) for a detailed information about the project and how to use it  
 
