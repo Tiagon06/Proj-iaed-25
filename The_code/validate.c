@@ -133,6 +133,6 @@ void verify_mem(Sys *sys, void *a) {
 		puts(ENOMEM);
 		free_sys(sys);
 		free(a);
-		exit(0);
+		exit(1);
 	}
 }
